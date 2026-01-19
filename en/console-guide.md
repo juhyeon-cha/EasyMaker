@@ -1693,7 +1693,7 @@ Create a new RAG.
 - **Enalbe API Gateway service**
     - AI EasyMaker RAG creates and manages API enpoints by using the NHN Cloud API Gateway service. To use RAG feature, you must enable the API Gateway service.
     - For more information and fee about the API Gateway service, see below:
-        - [About API Gateway Service](https://docs.nhncloud.com/ko/Application%20Service/API%20Gateway/ko/overview/)
+        - [About API Gateway Service](https://docs.nhncloud.com/en/Application%20Service/API%20Gateway/en/overview/)
         - [API Gateway Fee](https://www.nhncloud.com/kr/pricing/by-service?c=Application%20Service&s=API%20Gateway)
 - **Default Setting**
     - **Name**: enter a RAG name. It cannot be duplicated.
@@ -1707,7 +1707,7 @@ Create a new RAG.
             - **Enable RDS for PostgreSQL**
                 - AI EasyMaker RAG creates and manages by using NHN Cloud RDS for PostgreSQL. If selecting this option, you must enable RDS for PostgreSQL.
                 - For more information and fee about the RDS for PostgreSQL, see below:
-                    - [RDS for PostgreSQL Guide](https://docs.nhncloud.com/ko/Database/RDS%20for%20PostgreSQL/ko/overview/)
+                    - [RDS for PostgreSQL Guide](https://docs.nhncloud.com/en/Database/RDS%20for%20PostgreSQL/en/overview/)
                     - [RDS for PostgreSQL Usage Fee](https://www.nhncloud.com/kr/pricing/by-service?c=Database&s=RDS%20for%20PostgreSQL)
             - **Instance flavor**: select the instance flavor to be used for RDS for PostgreSQL.
             - **Storage type**: select the storage flavor to be used for RDS for PostgreSQL.
@@ -1741,7 +1741,7 @@ Create a new RAG.
     There may be limitations on the format, size, and number of files available for ingestion. For more information, see [Collect Sync](#rag.ingestion.sync).
 
 !!! danger "Caution"
-    For how to create an instance, refer to [PostgreSQL Instance User Guide](https://docs.nhncloud.com/ko/Compute/Instance/ko/component-guide/#postgresql-instance).
+    For how to create an instance, refer to [PostgreSQL Instance User Guide](https://docs.nhncloud.com/en/Compute/Instance/en/component-guide/#postgresql-instance).
 
 !!! danger "Caution"
     Only NHN Cloud NAS created in the same project as AI EasyMaker can be used.
